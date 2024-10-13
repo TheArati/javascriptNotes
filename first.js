@@ -590,3 +590,61 @@
 //         }
 //     });
 // }); 
+
+
+
+
+// // Window object , the window object represents an open window in a browser. it is browser's object(not js's) and is automatically created by browser.
+// // it is a global object with lots of properties & methods.
+
+// // document object model , when a web page is loaded, the browser creates a DOM of the page
+// // to print object we use console.dir for example - console.dir(window.document)
+// // to print element we use console.log(window.document)
+
+// console.dir(document);
+// console.log(document); 
+// console.dir(document); //object of document
+// console.log(document.body); //print element body (code)
+// console.dir(document.body);//object of body under document
+
+
+
+// // Access html inside javascript is dom. it is tree like structure which consist nodes. (childnodes). it is use to change the html with the help of javascript. (dynamic changes)
+// document.body.style.backgroundColor = "BLUE";
+
+// // DOM Manipulation -(accessing elements) selecting with id , selecting with class, selecting with tag
+// // document.getElementById("myid"), document.getElementsByClassName("myclass"),document.getElementsByTagName("p");
+// let heading = document.getElementById("heading");
+// console.dir(heading);
+
+// let id1=  document.querySelector("#myid");
+// let class1 = document.querySelector(".className");
+// let body1 = document.querySelector("body");
+// let elements = document.querySelector("body")
+
+// let firstEle = document.querySelector("p"); // first p element;
+// console.dir(firstEle);
+
+// let allEle = document.querySelectorAll("p")//all p
+// console.dir(allEle);
+
+//  properties - tagName -return tag for element nodes, innerText - return text content of the element and all its children
+// // innerHTML - return the plain text or HTML contents inthe element
+// // textContent - returns textual content even for hidden elements
+
+
+// h2.append("from apna college");
+// let heading = document.querySelector("h2");
+// heading.innerText = heading.innerText + " hello geeks";
+// heading = heading.append(" hello geeks");
+
+// DOM MANIPULATION 
+
+
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me";
+// newBtn.style.backgroundColor = "red";
+// newBtn.style.color = "white";
+
+//  document.querySelector("body").prepend(newBtn);
+

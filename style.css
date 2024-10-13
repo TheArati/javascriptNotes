@@ -1,0 +1,15 @@
+h1{
+    color:rgb(20, 19, 20);
+    text-align: center;
+    background-color: rgb(206, 15, 101);
+    
+}
+
+hr{
+    size: 500pc;
+    color: black;
+}
+
+body{
+    background-color: rgb(110, 173, 51);
+}
